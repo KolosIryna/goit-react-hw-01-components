@@ -1,0 +1,11 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: rgb(232, 254, 254);
+}
