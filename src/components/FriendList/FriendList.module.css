@@ -8,10 +8,14 @@
   border: 2px solid gray;
   border-radius: 10px;
   background-color: rgb(232, 254, 254);
+  list-style: none;
 }
 
 .item {
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .status {
@@ -19,5 +23,23 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
+
+  margin-right: 8px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
   background-color: red;
+}
+
+.avatar {
+  margin-right: 15px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
 }
